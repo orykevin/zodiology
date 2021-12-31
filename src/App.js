@@ -15,7 +15,7 @@ function App() {
   const [display,setDisplay] = useState({
     chn:false,
     wst:false,
-    list1:false,
+    list1:true,
   })
   const [date,setDate] = useState({
     day:1,
@@ -32,7 +32,7 @@ function App() {
   const stateRef = useRef(0);
   const [loveWindow,setLovewnd] = useState(false);
   const [pass,setPass] = useState({
-    fr:false,
+    fr:true,
     sc:false,
 });
 
