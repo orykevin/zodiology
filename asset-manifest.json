@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/zodiology/static/css/main.3c455779.chunk.css",
-    "main.js": "/zodiology/static/js/main.4986814d.chunk.js",
-    "main.js.map": "/zodiology/static/js/main.4986814d.chunk.js.map",
-    "runtime-main.js": "/zodiology/static/js/runtime-main.6492b772.js",
-    "runtime-main.js.map": "/zodiology/static/js/runtime-main.6492b772.js.map",
-    "static/js/2.5d2918a9.chunk.js": "/zodiology/static/js/2.5d2918a9.chunk.js",
-    "static/js/2.5d2918a9.chunk.js.map": "/zodiology/static/js/2.5d2918a9.chunk.js.map",
-    "static/js/3.ab6eaa94.chunk.js": "/zodiology/static/js/3.ab6eaa94.chunk.js",
-    "static/js/3.ab6eaa94.chunk.js.map": "/zodiology/static/js/3.ab6eaa94.chunk.js.map",
+    "main.js": "/zodiology/static/js/main.f8b9ea42.chunk.js",
+    "main.js.map": "/zodiology/static/js/main.f8b9ea42.chunk.js.map",
+    "runtime-main.js": "/zodiology/static/js/runtime-main.03eb765c.js",
+    "runtime-main.js.map": "/zodiology/static/js/runtime-main.03eb765c.js.map",
+    "static/js/2.501daf12.chunk.js": "/zodiology/static/js/2.501daf12.chunk.js",
+    "static/js/2.501daf12.chunk.js.map": "/zodiology/static/js/2.501daf12.chunk.js.map",
+    "static/js/3.fc3c0c27.chunk.js": "/zodiology/static/js/3.fc3c0c27.chunk.js",
+    "static/js/3.fc3c0c27.chunk.js.map": "/zodiology/static/js/3.fc3c0c27.chunk.js.map",
     "index.html": "/zodiology/index.html",
     "static/css/main.3c455779.chunk.css.map": "/zodiology/static/css/main.3c455779.chunk.css.map",
-    "static/js/2.5d2918a9.chunk.js.LICENSE.txt": "/zodiology/static/js/2.5d2918a9.chunk.js.LICENSE.txt",
+    "static/js/2.501daf12.chunk.js.LICENSE.txt": "/zodiology/static/js/2.501daf12.chunk.js.LICENSE.txt",
     "static/media/aquarius.7b58b417.png": "/zodiology/static/media/aquarius.7b58b417.png",
     "static/media/aries.f9915bb3.png": "/zodiology/static/media/aries.f9915bb3.png",
     "static/media/cancer.7aa31a59.png": "/zodiology/static/media/cancer.7aa31a59.png",
@@ -42,9 +42,9 @@
     "static/media/virgo.d5bdd7dc.png": "/zodiology/static/media/virgo.d5bdd7dc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6492b772.js",
-    "static/js/2.5d2918a9.chunk.js",
+    "static/js/runtime-main.03eb765c.js",
+    "static/js/2.501daf12.chunk.js",
     "static/css/main.3c455779.chunk.css",
-    "static/js/main.4986814d.chunk.js"
+    "static/js/main.f8b9ea42.chunk.js"
   ]
 }
