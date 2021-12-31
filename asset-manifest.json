@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zodiology/static/css/main.3c455779.chunk.css",
-    "main.js": "/zodiology/static/js/main.f8b9ea42.chunk.js",
-    "main.js.map": "/zodiology/static/js/main.f8b9ea42.chunk.js.map",
+    "main.js": "/zodiology/static/js/main.5ac0ce7b.chunk.js",
+    "main.js.map": "/zodiology/static/js/main.5ac0ce7b.chunk.js.map",
     "runtime-main.js": "/zodiology/static/js/runtime-main.03eb765c.js",
     "runtime-main.js.map": "/zodiology/static/js/runtime-main.03eb765c.js.map",
     "static/js/2.501daf12.chunk.js": "/zodiology/static/js/2.501daf12.chunk.js",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.03eb765c.js",
     "static/js/2.501daf12.chunk.js",
     "static/css/main.3c455779.chunk.css",
-    "static/js/main.f8b9ea42.chunk.js"
+    "static/js/main.5ac0ce7b.chunk.js"
   ]
 }
