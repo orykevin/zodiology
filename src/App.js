@@ -15,7 +15,7 @@ function App() {
   const [display,setDisplay] = useState({
     chn:false,
     wst:false,
-    list1:true,
+    list1:false,
   })
   const [date,setDate] = useState({
     day:1,
@@ -32,7 +32,7 @@ function App() {
   const stateRef = useRef(0);
   const [loveWindow,setLovewnd] = useState(false);
   const [pass,setPass] = useState({
-    fr:true,
+    fr:false,
     sc:false,
 });
 
@@ -51,7 +51,7 @@ function App() {
       <Calculator className="calcu" date={date} setDate={setDate} zodiac={zodiac} setZodiac={setZodiac} stateRef={stateRef} display={display} setDisplay={setDisplay} start={start} setStart={setStart} />
       {display.wst ? <Zodiaccard region={"Western"} date={date} setDate={setDate} zodiac={zodiac} setZodiac={setZodiac} stateRef={stateRef} display={display} setDisplay={setDisplay} start={start} setStart={setStart} loveWindow={loveWindow} setLovewnd={setLovewnd} pass={pass} setPass={setPass} /> : "" }
       {display.chn ? <Zodiaccard region={"Chinnese"} date={date} setDate={setDate} zodiac={zodiac} setZodiac={setZodiac} stateRef={stateRef} display={display} setDisplay={setDisplay} start={start} setStart={setStart} loveWindow={loveWindow} setLovewnd={setLovewnd} pass={pass} setPass={setPass} /> : "" }
-      {display.list1 ? <Allist region={"Chinnese"} date={date} setDate={setDate} zodiac={zodiac} setZodiac={setZodiac} stateRef={stateRef} display={display} setDisplay={setDisplay} start={start} setStart={setStart} loveWindow={loveWindow} setLovewnd={setLovewnd} pass={pass} setPass={setPass} setStart={setStart}/> : ""}
+      {display.list1 ? <Allist date={date} setDate={setDate} zodiac={zodiac} setZodiac={setZodiac} stateRef={stateRef} display={display} setDisplay={setDisplay} start={start} setStart={setStart} loveWindow={loveWindow} setLovewnd={setLovewnd} pass={pass} setPass={setPass} setStart={setStart}/> : ""}
     </div>
   );
 }

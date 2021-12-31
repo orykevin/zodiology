@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft,faTimes,faHeart,faInfo} from "@fortawesome/free-solid-svg-icons";
 import Listcard from './list-card';
 import Zodiaccard from "./zodiaccard.js";
+import { useState, useRef } from "react";
 
 import aries from "../west-zod/aries.png";
 import taurus from "../west-zod/taurus.png";
@@ -29,10 +30,8 @@ import dragon from "../chinse-zod/dragon.png"
 import snake from "../chinse-zod/snake.png"
 import horse from "../chinse-zod/horse.png"
 import goat from "../chinse-zod/goat.png"
-import { useState } from 'react/cjs/react.development';
-import zodiaccard from './zodiaccard';
 
-function allist({date,setDate,zodiac,setZodiac,stateRef,display,setDisplay,region,start,setStart,loveWindow,setLovewnd,pass,setPass}) {
+function Allist({date,setDate,zodiac,setZodiac,stateRef,display,setDisplay,region,start,setStart,loveWindow,setLovewnd,pass,setPass}) {
     const [reg,setReg] = useState("Western");
 
     const [listprop,setProp] =useState({
@@ -373,4 +372,4 @@ function allist({date,setDate,zodiac,setZodiac,stateRef,display,setDisplay,regio
     )
 }
 
-export default allist
+export default Allist

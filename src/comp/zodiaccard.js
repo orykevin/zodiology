@@ -37,7 +37,7 @@ import Zodiaclove from "./zodiaclove";
 import Zodiaccomp from "./lovecomp.js";
 
 
-function zodiaccard({date,setDate,zodiac,setZodiac,stateRef,region,start,setStart,pass,loveWindow,setLovewnd}) {
+function Zodiaccard({date,setDate,zodiac,setZodiac,stateRef,region,start,setStart,pass,loveWindow,setLovewnd}) {
     const [tabOpen,setTab] = useState({
         tab : 0,
         window: false,
@@ -575,7 +575,6 @@ function zodiaccard({date,setDate,zodiac,setZodiac,stateRef,region,start,setStar
                     </div>
                     {confirmRegion() ? <h3 className="name-card">{zodiac.wzod}</h3> : <h3 className="name-card">{zodiac.czod}</h3>}
                     {confirmRegion() ? <h4 className="date-card">{selectwDate().date}</h4> : <h4 className="date-card">{selectcDate().date}</h4>}
-                    
                 </div>
                 <select name="" id="" className={`about-select ${(tabOpen.window && checkStart()) ? "" : "hide"}`} onChange={e => setTab({...tabOpen,tab:parseInt(e.target.value)})}>
                     <option value="0">About {confirmRegion() ? zodiac.wzod : zodiac.czod}</option>
@@ -591,4 +590,4 @@ function zodiaccard({date,setDate,zodiac,setZodiac,stateRef,region,start,setStar
     )
 }
 
-export default zodiaccard
+export default Zodiaccard
