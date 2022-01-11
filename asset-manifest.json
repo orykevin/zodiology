@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/zodiology/static/css/main.3c455779.chunk.css",
-    "main.js": "/zodiology/static/js/main.5ac0ce7b.chunk.js",
-    "main.js.map": "/zodiology/static/js/main.5ac0ce7b.chunk.js.map",
+    "main.css": "/zodiology/static/css/main.6f5b97b1.chunk.css",
+    "main.js": "/zodiology/static/js/main.e5e244ee.chunk.js",
+    "main.js.map": "/zodiology/static/js/main.e5e244ee.chunk.js.map",
     "runtime-main.js": "/zodiology/static/js/runtime-main.03eb765c.js",
     "runtime-main.js.map": "/zodiology/static/js/runtime-main.03eb765c.js.map",
     "static/js/2.501daf12.chunk.js": "/zodiology/static/js/2.501daf12.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fc3c0c27.chunk.js": "/zodiology/static/js/3.fc3c0c27.chunk.js",
     "static/js/3.fc3c0c27.chunk.js.map": "/zodiology/static/js/3.fc3c0c27.chunk.js.map",
     "index.html": "/zodiology/index.html",
-    "static/css/main.3c455779.chunk.css.map": "/zodiology/static/css/main.3c455779.chunk.css.map",
+    "static/css/main.6f5b97b1.chunk.css.map": "/zodiology/static/css/main.6f5b97b1.chunk.css.map",
     "static/js/2.501daf12.chunk.js.LICENSE.txt": "/zodiology/static/js/2.501daf12.chunk.js.LICENSE.txt",
     "static/media/aquarius.7b58b417.png": "/zodiology/static/media/aquarius.7b58b417.png",
     "static/media/aries.f9915bb3.png": "/zodiology/static/media/aries.f9915bb3.png",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.03eb765c.js",
     "static/js/2.501daf12.chunk.js",
-    "static/css/main.3c455779.chunk.css",
-    "static/js/main.5ac0ce7b.chunk.js"
+    "static/css/main.6f5b97b1.chunk.css",
+    "static/js/main.e5e244ee.chunk.js"
   ]
 }
